@@ -1,0 +1,601 @@
+Vocabulary,Code,Description;;,classification
+SNOMED,398166005,Performed;;,False
+SNOMED,371484003,Patient name;;,True
+SNOMED,405622006,Patient middle name;;,True
+SNOMED,408676007,Patient preferred name;;,True
+SNOMED,429086007,Patient alias name;;,True
+SNOMED,184095009,Patient forename;;,True
+SNOMED,184096005,Patient surname;;,True
+SNOMED,184097001,Patient address;;,True
+SNOMED,424966008,Patient email address;;,True
+SNOMED,397635003,Address;;,True
+SNOMED,408576002,Caregiver email address;;,True
+SNOMED,398095003,Guarantor address;;,True
+SNOMED,398099009,Street address;;,True
+SNOMED,408587005,Legal guardian - email address;;,True
+SNOMED,398198004,Guarantor phone number;;,True
+SNOMED,184102003,Patient postal code;;,True
+SNOMED,429524004,Patient facsimile number;;,True
+SNOMED,184103008,Patient telephone number;;,True
+SNOMED,428842005,Patient textphone number;;,True
+SNOMED,429697006,Patient home telephone number;;,True
+SNOMED,428481002,Patient mobile telephone number;;,True
+SNOMED,428843000,Patient work telephone number;;,True
+SNOMED,184099003,Date of birth;;,True
+SNOMED,399753006,Date of death;;,True
+SNOMED,398093005,Social Security Number;;,True
+SNOMED,398225001,Medical record number;;,True
+SNOMED,394571004,Employer;;,True
+LOINC,11294-6,Current employment Narrative - Reported;;,False
+LOINC,11295-3,Current employment - Reported;;,False
+LOINC,11296-1,ED clinical finding practitioner identifier;;,True
+LOINC,11298-7,ED consultant practitioner identifier;;,True
+LOINC,11312-6,ED procedure practitioner identifier;;,True
+LOINC,11318-3,Ambulance transport agency EMS system;;,False
+LOINC,11319-1,Ambulance transport unit [Identifier] EMS system;;,False
+LOINC,11340-7,History of Occupation Narrative;;,False
+LOINC,11341-5,History of Occupation;;,False
+LOINC,11503-0,Medical records;;,False
+LOINC,11513-9,Provider.signing [Identifier] Report;;,False
+LOINC,11530-3,Surgeon.assisting [Identifier];;,False
+LOINC,11531-1,Surgeon.resident [Identifier];;,False
+LOINC,11532-9,Surgeon.staff [Identifier];;,False
+LOINC,11951-1,Fetal [Identifier] Identifier;;,False
+"LOINC,15514-3,""Ambulance transport, Ordering practitioner identifier type"";;",True
+"LOINC,18581-9,""Ambulance transport, Origination site Address"";;",True
+"LOINC,18583-5,""Ambulance transport, Destination site Address"";;",True
+LOINC,18694-0,ED consultant practitioner name;;,False
+LOINC,18700-5,ED practitioner name;;,False
+LOINC,18705-4,ED referring practitioner name;;,True
+"LOINC,18730-2,""Deprecated Psychiatric rehabilitation treatment plan, Author ID Identifier"";;",True
+LOINC,18770-8,Dictating practitioner name;;,True
+LOINC,18771-6,Provider signing name;;,True
+LOINC,18772-4,Surgeon.resident name;;,False
+LOINC,18773-2,Surgeon.staff name;;,False
+LOINC,19111-4,Mother's hospital number;;,False
+LOINC,19132-0,Mother's name;;,True
+LOINC,21842-0,Birthplace;;,True
+LOINC,21851-1,Address at cancer diagnosis;;,True
+LOINC,21866-9,Patient ID.hospital;;,False
+LOINC,22018-6,Military patient number;;,False
+LOINC,22019-4,Death certificate number;;,False
+LOINC,22020-2,Maiden name;;,False
+LOINC,22021-0,Institution referred from Cancer registry;;,True
+LOINC,22022-8,Institution referred to Cancer registry;;,False
+LOINC,22023-6,Last follow-up hospital [Identifier] Cancer registry;;,False
+LOINC,22024-4,Following registry [Identifier] Cancer registry;;,False
+LOINC,22025-1,Physician managing [Identifier];;,False
+LOINC,22026-9,Physician follow up [Identifier];;,True
+LOINC,22027-7,Surgeon primary [Identifier];;,False
+LOINC,22028-5,Physician [Identifier];;,True
+LOINC,30947-6,Date form completed;;,True
+LOINC,31211-6,Date of death;;,True
+"LOINC,39233-2,""Screen test, other name CPHS"";;",False
+"LOINC,39250-6,""Program participation, name CPHS"";;",True
+"LOINC,39268-8,""Follow-up (referred to) provider /specialist, name CPHS"";;",False
+"LOINC,39270-4,""Follow-up (referred to) provider /specialist, address CPHS"";;",True
+"LOINC,39271-2,""Follow-up (referred to) provider /specialist, phone CPHS"";;",True
+"LOINC,39275-3,""Follow-up (referred to) program, name CPHS"";;",True
+"LOINC,39276-1,""Follow-up (referred to) program, address CPHS"";;",True
+"LOINC,39277-9,""Follow-up (referred to) program, phone CPHS"";;",True
+"LOINC,39281-1,""Responsible party, name CPHS"";;",True
+"LOINC,39282-9,""Responsible party, home phone number CPHS"";;",True
+LOINC,39284-5,Patient escort information panel;;,True
+LOINC,39285-2,Escort Name;;,True
+LOINC,39286-0,Escort Relationship to patient;;,False
+LOINC,42077-8,Patient phone number;;,False
+LOINC,42106-5,Archive facility identification number Cancer;;,False
+LOINC,42127-1,Name of follow-up contact;;,True
+LOINC,44780-5,Organ donor ID number Narrative;;,True
+LOINC,44951-2,Physician NPI [Identifier];;,True
+LOINC,44952-0,Surgeon primary NPI [Identifier] Provider;;,True
+LOINC,44953-8,Physician follow up NPI [Identifier];;,True
+LOINC,44954-6,Physician managing NPI [Identifier];;,True
+LOINC,44955-3,Archive facility identification number NPI Cancer;;,True
+LOINC,44956-1,Following registry NPI [Identifier] Cancer registry;;,True
+LOINC,44957-9,Institution referred to NPI Cancer registry;;,True
+LOINC,44958-7,Institution referred from NPI Cancer registry;;,True
+LOINC,44959-5,Hospital.reporting NPI [Identifier] Cancer;;,True
+LOINC,44960-3,Institution data source NPI Registry message;;,True
+LOINC,45250-8,HIV confirmation facility Address;;,True
+LOINC,45253-2,HIV treatment prior clinic transferred from Address;;,False
+LOINC,45255-7,HIV treatment clinic transferred to Address;;,True
+LOINC,45392-8,First (Given) name;;,True
+LOINC,45392-8,First name;;,True
+LOINC,45393-6,Middle initial;;,True
+LOINC,45394-4,Last (Family) name;;,True
+LOINC,45394-4,Last name;;,True
+LOINC,45395-1,Name suffix;;,True
+LOINC,45396-9,Social Security number [Identifier];;,True
+LOINC,45397-7,Medicare or comparable number;;,True
+LOINC,45398-5,State provider number for Facility;;,True
+LOINC,45400-9,Medicaid number;;,True
+LOINC,45401-7,Postal code [Location];;,False
+LOINC,45402-5,Language.primary;;,True
+LOINC,45403-3,Room number [Location];;,True
+LOINC,45404-1,Marital status;;,True
+LOINC,45468-6,Health care durable power attorney;;,True
+LOINC,45965-1,Name Set;;,True
+LOINC,45966-9,Social Security and Medicare numbers;;,False
+LOINC,46098-0,Sex;;,True
+LOINC,46106-1,Medical record number [Identifier];;,True
+LOINC,46446-1,Record ID section Set NAACCR v.11;;,True
+LOINC,46463-6,Race or ethnicity;;,True
+LOINC,46496-6,Agency patient number [CMS Assessment];;,True
+LOINC,46499-0,State of residence;;,True
+LOINC,46503-9,Deprecated Most recent inpatient discharge date [OASIS];;,False
+"LOINC,46582-3,""Discharge, transfer, death date [CMS Assessment]"";;",True
+LOINC,49089-6,Sonographer [Identifier];;,True
+"LOINC,52010-6,""Ambulance transport, Other patient name"";;",True
+"LOINC,52011-4,""Ambulance transport, Other patient identifier"";;",True
+"LOINC,52014-8,""Ambulance transport, Receiving individual accepting responsibility for patient Identifier"";;",True
+"LOINC,52023-9,""Ambulance transport, Origination site name and address"";;",True
+"LOINC,52026-2,""Ambulance transport, Destination site name and address"";;",True
+LOINC,52037-9,Member ID card copy;;,True
+LOINC,52069-2,Tax ID number - IRS form W9;;,True
+LOINC,52455-3,Admission date;;,True
+LOINC,52460-3,Patient Information;;,False
+LOINC,52461-1,Middle name;;,False
+LOINC,52462-9,Nickname;;,False
+LOINC,52463-7,Patient Identification Number or Provider Account Number;;,False
+LOINC,52525-3,Discharge date;;,False
+LOINC,52526-1,Attending physician name;;,True
+LOINC,52532-9,Provider state;;,False
+LOINC,52539-4,Prior postal code [Location];;,True
+LOINC,52828-1,Federal provider name Facility;;,False
+LOINC,52831-5,Postal code [Location] Facility;;,True
+LOINC,53245-7,Driver license;;,True
+LOINC,53599-7,Deprecated ZIP code of prior primary residence;;,True
+LOINC,54123-5,Sex of Family member;;,True
+LOINC,54124-3,Birth date Family member;;,True
+LOINC,54125-0,Name;;,False
+LOINC,54136-7,Relationship to patient Family member;;,False
+LOINC,54138-3,Name Family member;;,True
+LOINC,54503-8,Legal name of patient;;,False
+LOINC,54504-6,Deprecated Social Security and Medicare numbers;;,False
+LOINC,54581-4,Facility provider numbers;;,False
+LOINC,54588-9,Interpreter needed;;,False
+LOINC,54704-2,How important it is to be able to use the phone in private while in this facility [CMS Assessment];;,False
+LOINC,54899-0,Preferred language;;,False
+LOINC,55078-0,Federal employer tax ID Software vendor;;,True
+LOINC,55093-9,Vendor email address Software;;,False
+LOINC,55174-7,Patient identification data Set DEEDS;;,True
+LOINC,56051-6,Hispanic or Latino;;,True
+LOINC,56090-4,Hispanic origin;;,True
+LOINC,56794-1,Internal identifier;;,True
+LOINC,56795-8,Account number [Identifier];;,True
+LOINC,56796-6,Emergency contact information panel;;,False
+LOINC,56797-4,Episode unique identifier;;,False
+LOINC,56799-0,Address;;,False
+LOINC,56802-2,Primary care provider [Identifier];;,False
+LOINC,56803-0,ED attending physician [Identifier];;,True
+LOINC,56804-8,ED nurse [Identifier] Provider;;,False
+LOINC,56805-5,ED accepting/admitting provider [Identifier];;,False
+LOINC,56806-3,ED transferring provider [Identifier];;,False
+LOINC,56807-1,ED transferring facility [Identifier];;,True
+LOINC,56808-9,ED accepting or admitting facility [Identifier];;,False
+LOINC,56809-7,ED tech [Identifier] Provider;;,True
+LOINC,56810-5,ED triage nurse Provider;;,True
+LOINC,56811-3,Primary care clinic or system [Identifier] Facility;;,True
+LOINC,56812-1,Provider who accepted patient in transfer to another facility [Identifier];;,False
+LOINC,56855-0,Provider assuming ultimate responsibility for care for patient upon ED disposition [Identifier];;,False
+LOINC,56856-8,Provider assuming care for patient upon ED disposition [Identifier];;,True
+LOINC,56861-8,Emergency contact Name;;,True
+LOINC,56862-6,Emergency contact Address;;,True
+LOINC,56863-4,Emergency contact Phone number;;,True
+LOINC,56870-9,ED facility ID;;,True
+LOINC,60506-3,Record ID section Set NAACCR v.12;;,False
+LOINC,62324-9,Post-discharge provider name in Provider;;,True
+LOINC,62326-4,Post-discharge provider practice name;;,True
+LOINC,62327-2,Post-discharge provider practice address;;,False
+LOINC,62328-0,Post-discharge provider practice phone number;;,False
+LOINC,62329-8,Birth hospital facility ID;;,False
+LOINC,62330-6,Birth hospital facility name;;,True
+LOINC,62331-4,Birth hospital facility address;;,False
+LOINC,62332-2,Birth hospital facility phone number;;,False
+LOINC,62369-4,FISH probe name panel - Laboratory device;;,False
+LOINC,63052-5,PhenX - current address protocol 010801;;,True
+LOINC,63490-7,Deprecated Birthplace [PhenX];;,False
+LOINC,63492-3,Father birthplace;;,False
+LOINC,63497-2,Current street number [Location] [PhenX];;,True
+LOINC,63498-0,Current street name [Location] [PhenX];;,True
+LOINC,63500-3,Current city [PhenX];;,False
+LOINC,63502-9,Deprecated Current zip code [Location] [PhenX];;,False
+LOINC,63517-7,Household member Relationship to patient;;,False
+LOINC,63726-4,From what date did you live in the residence;;,True
+LOINC,63727-2,To what date did you live in the residence;;,False
+"LOINC,63728-0,""What is the residence address, street - crosstreets, city, state or landmark [PEG]"";;",False
+"LOINC,63728-0,""What is the residence address, street - crosstreets, city, state or landmark [P"";;",False
+"LOINC,63754-6,""What was the name of the company where you first or next worked, for 6 months or longer [NHANES]"";;",False
+LOINC,63781-9,Sex of Sibling;;,False
+LOINC,64290-0,Health insurance card;;,False
+LOINC,64297-5,Death certificate;;,
+LOINC,64604-2,Technician [Identifier];;,False
+LOINC,64866-7,In what city or town were you living when you were 18 [PhenX];;,False
+LOINC,64867-5,To what city or town did you move to next [PhenX];;,True
+LOINC,64869-1,City [PhenX];;,False
+LOINC,65645-4,Reviewer initials;;,True
+LOINC,65647-0,City Facility;;,True
+LOINC,65649-6,Country Facility;;,True
+LOINC,65650-4,Email address Facility;;,False
+LOINC,65651-2,Phone number Facility;;,True
+LOINC,65652-0,Testing facility name;;,True
+LOINC,65833-6,Facility Address;;,False
+LOINC,65840-1,Principal result interpreter phone number;;,True
+LOINC,65884-9,Photographer ID;;,True
+LOINC,66276-7,Day name [PhenX];;,True
+LOINC,66280-9,School Name;;,False
+LOINC,66302-1,Participant [Identifier];;,True
+LOINC,66506-7,Image name Hand [PhenX];;,True
+LOINC,66509-1,Image name Knee [PhenX];;,True
+LOINC,66512-5,Image name Hip [PhenX];;,False
+LOINC,66566-1,Image name Femur [PhenX];;,False
+LOINC,66567-9,Image name Spine [PhenX];;,True
+"LOINC,66909-3,""Have you ever had an immediate family member, romantic partner, or very close friend who was murdered [LTVH]"";;",False
+LOINC,67101-6,Dermatologist name Provider;;,True
+"LOINC,67116-4,""Was anyone murdered who was a parent, a brother, a sister, a very close friend, a boyfriend or girlfriend, or someone who lived with you [LTVH]"";;",True
+"LOINC,67118-0,""Have you ever known someone who committed suicide or killed themselves;"" that is", a parent, a sister, a brother, a very close friend, a boyfriend or girlfriend," or someone who lived with you [LTVH]"""""";",True
+LOINC,67153-7,Abstractor [Identifier];;,True
+LOINC,67154-5,Nosologist [Identifier];;,True
+LOINC,67288-1,Race or ethnicity [The Position Generator];;,True
+LOINC,67414-3,Region of origin [PhenX];;,True
+LOINC,67714-6,Diagnosing provider phone number;;,True
+LOINC,67878-9,Facility name Dialysis facility;;,True
+LOINC,67884-7,Tribal enrollment;;,True
+LOINC,68335-9,Self-dialysis training facility name Dialysis facility;;,True
+LOINC,68340-9,Attending physician phone number Provider;;,True
+LOINC,68491-0,Self-dialysis training physician name Provider;;,True
+LOINC,68997-6,City;;,True
+LOINC,68998-4,U.S. standard certificate of live birth - 2003 revision;;,True
+LOINC,69409-1,U.S. standard certificate of death - 2003 revision;;,True
+LOINC,69417-4,CMS certification number (CCN) for Facility;;,True
+LOINC,69434-9,Location of death name Facility;;,True
+LOINC,69435-6,Street address where death occurred if not facility;;,True
+LOINC,69454-7,Death date comment;;,True
+"LOINC,69854-8,""Hispanic, latino-a, or spanish origin"";;",True
+LOINC,71230-7,Birth certificate;;,True
+LOINC,71509-4,Phone number extension Dialysis facility [ESRD];;,True
+LOINC,71530-0,Business name Dialysis facility [ESRD];;,True
+LOINC,71534-2,Phone number Dialysis facility [ESRD];;,True
+LOINC,71591-2,Personnel Job title;;,True
+LOINC,71720-7,Personnel Address;;,True
+LOINC,71723-1,Personnel Cell phone number;;,True
+LOINC,71724-9,Personnel Home phone number;;,True
+LOINC,71725-6,Personnel Business phone number extension;;,True
+LOINC,71726-4,Personnel Business phone number;;,True
+LOINC,71727-2,Personnel Fax number;;,True
+LOINC,71728-0,Personnel Email address;;,False
+LOINC,71729-8,Personnel Nine-digit postal code;;,False
+LOINC,71730-6,Personnel Five-digit postal code;;,True
+LOINC,71731-4,Personnel State;;,False
+LOINC,71732-2,Personnel City;;,False
+LOINC,71733-0,Personnel Address 2;;,True
+LOINC,71734-8,Personnel Preferred mailing address;;,True
+LOINC,71735-5,Personnel Credentials;;,True
+LOINC,71736-3,Personnel Name prefix;;,False
+LOINC,71737-1,Personnel Name suffix;;,False
+LOINC,71738-9,Personnel Middle initial;;,False
+LOINC,71739-7,Personnel First (Given) name;;,True
+LOINC,71739-7,Personnel First name;;,False
+LOINC,71740-5,Personnel Last (Family) name;;,True
+LOINC,71740-5,Personnel Last name;;,True
+LOINC,71749-6,Personnel unique identifier;;,
+LOINC,71750-4,Primary contact phone number extension Facility;;,True
+LOINC,71751-2,Primary contact phone number Facility;;,True
+LOINC,71752-0,Primary contact first name Facility;;,True
+LOINC,71753-8,Primary contact last name Facility;;,True
+LOINC,71766-0,Primary contact email Facility;;,True
+LOINC,72486-4,Laboratory director name in Provider;;,False
+LOINC,73766-8,Place where birth occurred [US Standard Certificate of Live Birth];;,True
+LOINC,73774-2,Onset of labor [US Standard Certificate of Live Birth];;,False
+LOINC,74024-1,Family member identifier;;,False
+LOINC,74025-8,Mother identifier;;,False
+LOINC,74026-6,Father identifier;;,False
+LOINC,74027-4,Family pedigree identifier;;,False
+LOINC,74221-3,Referring physician address;;,False
+LOINC,74287-4,Occupation [NTDS];;,True
+LOINC,74288-2,Occupation industry [NTDS];;,True
+LOINC,74499-5,Death pronouncer details;;,True
+LOINC,74547-1,Reporter email;;,True
+LOINC,74548-9,Reporter phone number;;,False
+LOINC,74710-5,Asset tag number;;,False
+LOINC,74711-3,Unique device identifier;;,False
+LOINC,74713-9,Other unique product identifier [Type];;,False
+LOINC,74718-8,Type of device identifier [AHRQ];;,True
+LOINC,74726-1,Other unique product identifier;;,False
+LOINC,74734-5,Death certifier details;;,False
+LOINC,75257-6,Mother's Marital status [CDC.CS];;,True
+LOINC,75519-9,Encounter identifier;;,False
+LOINC,75549-6,Performing laboratory phone number;;,False
+LOINC,75783-1,Primary healthcare agent [Reported];;,False
+LOINC,75784-9,First alternate healthcare agent [Reported];;,False
+LOINC,75785-6,Second alternate healthcare agent [Reported];;,True
+LOINC,76417-5,Provider First name;;,False
+LOINC,76418-3,Provider Middle Initial;;,True
+LOINC,76419-1,Provider Last name;;,False
+LOINC,76420-9,Provider Graduation year;;,True
+LOINC,76428-2,Visit charge in dollars;;,True
+LOINC,76429-0,Physical therapy Discharge date;;,False
+LOINC,76430-8,CPT units [#];;,False
+LOINC,76432-4,Episode of care unique identifier;;,False
+LOINC,76435-7,Patient identifier;;,False
+LOINC,76437-3,Primary insurance;;,False
+LOINC,76438-1,Secondary insurance;;,False
+LOINC,76458-9,Patient Email address;;,False
+LOINC,76468-8,Organization NPI;;,False
+LOINC,76469-6,Organization name;;,False
+LOINC,76470-4,Organization federal tax ID;;,False
+LOINC,76471-2,Organization episode of care unique identifier;;,False
+LOINC,76516-4,Gestational age--at birth;;,False
+LOINC,76689-9,Sex assigned at birth;;,False
+LOINC,76695-6,Organization ZIP code;;,True
+LOINC,76696-4,Name [Identifier] Facility;;,True
+LOINC,76698-0,Patient identifier assigning authority;;,True
+LOINC,77967-8,Reporting county;;,True
+LOINC,77972-8,Earliest date reported to county;;,True
+LOINC,77981-9,Case outbreak name;;,True
+LOINC,77983-5,Country of usual residence [Location];;,False
+LOINC,77987-6,County of exposure to illness [Location];;,False
+LOINC,78239-1,Resource identifier [URI] for Clinical document;;,False
+LOINC,78746-5,Country of birth [Location];;,False
+LOINC,78977-6,Cardiologist name Provider;;,True
+LOINC,79183-0,First name of Guardian or legally authorized representative;;,False
+LOINC,79184-8,Last name of Guardian or legally authorized representative;;,False
+LOINC,80393-2,Emergency management incident name;;,
+LOINC,80427-8,Employer name [Identifier];;,False
+LOINC,80428-6,Past employer name [Identifier];;,True
+LOINC,80429-4,Employer address;;,True
+LOINC,80430-2,Past employer address;;,False
+LOINC,80431-0,Employer city;;,False
+LOINC,80432-8,Past employer city;;,True
+LOINC,80433-6,Employer state;;,False
+LOINC,80434-4,Past employer state;;,False
+LOINC,80435-1,Employer postal code [Location];;,True
+LOINC,80436-9,Past employer postal code [Location];;,
+LOINC,80437-7,Employer country [Location];;,
+LOINC,80438-5,Past employer country [Location];;,
+LOINC,80571-3,Certificate;;,False
+LOINC,80616-6,Date and time pronounced dead [US Standard Certificate of Death];;,True
+LOINC,80903-8,Birth certificate ID;;,
+LOINC,80907-9,Death registration date;;,False
+LOINC,80909-5,Father's last name;;,False
+LOINC,81230-5,Referring physician phone number;;,
+LOINC,81356-8,Death arrangements [Reported];;,True
+LOINC,81369-1,First witness;;,True
+LOINC,81370-9,Second witness;;,
+LOINC,81371-7,Third witness;;,False
+LOINC,81372-5,Notary;;,False
+LOINC,81373-3,Notary commission expiration date;;,False
+LOINC,81374-1,Notary seal ID;;,True
+LOINC,81681-9,Verified two types of patient identification;;,True
+LOINC,81886-4,Sex of Provider;;,False
+LOINC,81887-2,Provider race OMB.1997;;,False
+LOINC,81888-0,Provider ethnicity OMB.1997;;,True
+LOINC,81889-8,Physical therapy provider entry-level degree;;,True
+LOINC,81890-6,Physical therapy provider post-professional degree;;,False
+LOINC,81954-0,Date of death [Date];;,True
+LOINC,81956-5,Date and time of death [TimeStamp];;,True
+LOINC,82157-9,Birth date Provider;;,True
+LOINC,82158-7,Graduation state Provider;;,True
+LOINC,82589-3,Highest level of education;;,False
+LOINC,82590-1,Years of education [#] - Reported;;,True
+LOINC,82607-3,Clinical data [Date and Time Range];;,True
+LOINC,82753-5,County of travel [Location];;,False
+LOINC,82787-3,Participant identifier;;,True
+LOINC,85058-6,Imputed values for date of death;;,True
+LOINC,85059-4,Confidence in date of death;;,True
+LOINC,85078-4,Occupation industry [Type];;,True
+LOINC,85104-8,Compensation and sector employment type;;,True
+LOINC,85431-5,Marital status of Contact;;,False
+LOINC,85432-3,Contact Relationship to patient;;,False
+LOINC,85657-5,Occupation industry CDC Census code;;,False
+LOINC,85658-3,Occupation [Type];;,False
+LOINC,85659-1,Occupation CDC Census code;;,False
+LOINC,86263-1,Data items collected at inpatient facility admission or agency discharge only - discharge from agency - death at home [CMS Assessment];;,False
+LOINC,86345-6,U.S. standard certificate of death - recommended 2003 revision set;;,False
+LOINC,86347-2,U.S. standard certificate of live birth - recommended 2003 revision set;;,False
+LOINC,86470-2,Most recent inpatient discharge date in the last 14 days [CMS Assessment];;,True
+LOINC,8649-6,Hospital discharge date;;,True
+LOINC,8656-1,Hospital admission date;;,False
+LOINC,86637-6,Provider role;;,False
+LOINC,86639-2,Household size [#];;,True
+LOINC,86807-5,Death administrative information Document;;,False
+LOINC,87219-2,Attesting individual first name Provider [CMS Assessment];;,True
+LOINC,87220-0,Attesting individual last name Provider [CMS Assessment];;,False
+LOINC,87226-7,Legal name of patient - first and last;;,False
+LOINC,87286-1,Birth attendant [Extended Identifier];;,True
+LOINC,87287-9,Birth certifier [Extended Identifier];;,True
+LOINC,87288-7,Date of birth certification;;,True
+LOINC,87289-5,Date of fetal death registration;;,False
+LOINC,87290-3,Date of Social Security Number request;;,False
+LOINC,87293-7,Relationship to patient's mother;;,True
+LOINC,87294-5,Guardian or legally authorized representative signature for Social Security Number request;;,False
+LOINC,87297-8,Birth registration date;;,True
+LOINC,87302-6,Paternity acknowledgment form signed Father;;,False
+LOINC,87520-3,Coverage type;;,False
+LOINC,87532-8,Most important mental health issue to address;;,True
+LOINC,87720-9,Provider Postal code;;,True
+LOINC,87721-7,County of residence [Location];;,True
+LOINC,88080-7,Multiple birth set identifier;;,False
+LOINC,88081-5,Title of person completing the form Provider;;,False
+LOINC,88088-0,EMS transport destination name [Identifier] of Facility;;,False
+LOINC,88090-6,Physician specialty;;,False
+"LOINC,88370-2,""Outcome and assessment information set (OASIS) form - version D, D1 - Discharged from agency - death at home [CMS Assessment]"";;",True
+LOINC,88505-3,OASIS D - Data items collected at inpatient facility admission or agency discharge only - discharge from agency - death at home [CMS Assessment];;,True
+LOINC,89010-3,EMS physician name;;,True
+LOINC,89011-1,EMS assistant name;;,True
+LOINC,89057-4,Permission to receive text messages;;,True
+LOINC,89058-2,Contact email address;;,True
+LOINC,89059-0,Secondary contact name;;,True
+LOINC,89060-8,Contact Phone number;;,True
+LOINC,89061-6,Insurance group number [Identifier];;,True
+LOINC,89088-9,WIC services recipient;;,False
+LOINC,89089-7,Immigration status;;,False
+LOINC,89175-4,Billing information panel;;,True
+LOINC,89178-8,Patient's Financial responsibility amount [#];;,True
+LOINC,89202-6,County location of Facility;;,True
+"LOINC,89265-3,""Procedures, Services, or Supplies modifier"";;",False
+"LOINC,89266-1,""Procedures, Services, or Supplies code"";;",True
+LOINC,89550-8,Middle name Provider;;,False
+LOINC,89601-9,Proof of encounter certificate;;,False
+LOINC,89911-2,Emergency management plan name;;,False
+LOINC,89918-7,Emergency management plan approver name;;,True
+LOINC,90052-2,Organization Address;;,False
+LOINC,90053-0,Organization Phone number;;,True
+LOINC,90054-8,Organization Email address;;,True
+LOINC,90055-5,Organization information panel;;,False
+LOINC,90057-1,Name of Contact at Organization;;,False
+LOINC,90058-9,Person responsible for generating report;;,False
+LOINC,90059-7,Task description Narrative;;,False
+LOINC,90060-5,Date task due;;,False
+LOINC,90063-9,Date and time task assigned;;,True
+LOINC,90093-6,Personnel name;;,False
+LOINC,90097-7,Email address of person responsible for generating report;;,False
+LOINC,90108-2,Incident commander name;;,False
+LOINC,90109-0,Incident commander qualification;;,False
+LOINC,90110-8,Incident commander phone number;;,False
+LOINC,90111-6,Incident commander email address;;,False
+LOINC,90113-2,Chief of staff name;;,False
+LOINC,90114-0,Chief of staff phone number;;,False
+LOINC,90115-7,Chief of staff email address;;,False
+LOINC,90118-1,Date and time of scheduled task;;,False
+LOINC,90119-9,Location of task;;,False
+LOINC,90123-1,Response team leader name;;,False
+LOINC,90124-9,Response team leader title;;,True
+LOINC,90125-6,Response team member name;;,False
+LOINC,90126-4,Response team member title;;,False
+LOINC,90852-5,Patient Fax number;;,False
+LOINC,90895-4,Task identifier;;,False
+LOINC,90896-2,Personnel Person assigned to task;;,False
+LOINC,90897-0,Percent of task completed;;,True
+LOINC,90946-5,Date of laboratory phone call to provider to communicate test result;;,False
+LOINC,91002-6,Personnel Job position;;,False
+LOINC,91003-4,Personnel contact information panel;;,False
+LOINC,91004-2,Deprecated Email address Personnel;;,False
+LOINC,91005-9,Organization assigned to task;;,False
+LOINC,91025-7,Lead department or agency name Organization;;,False
+LOINC,91098-4,Countermeasure name;;,False
+LOINC,91387-1,Has valid driver license;;,True
+LOINC,91562-9,Performing laboratory identifier Facility;;,False
+LOINC,91570-2,Employment net income in past 30 days;;,True
+LOINC,91583-5,Date and time of public health emergency;;,True
+LOINC,91585-0,Reliability of information source;;,True
+LOINC,91587-6,Accuracy of information from source;;,False
+LOINC,91588-4,Latitude Event;;,False
+LOINC,91589-2,Longitude Event;;,False
+LOINC,91690-8,Testing services available at Facility;;,False
+LOINC,91691-6,Personnel Age;;,False
+LOINC,91692-4,Sex of Personnel;;,False
+LOINC,91693-2,Personnel specialty;;,True
+LOINC,91694-0,Highest level of education of Personnel;;,True
+LOINC,91695-7,Personnel Qualification;;,True
+LOINC,91696-5,Response team name;;,True
+LOINC,91697-3,Volunteer Name;;,True
+LOINC,91698-1,Volunteer age;;,True
+LOINC,91699-9,Sex of Volunteer;;,False
+LOINC,91700-5,Specialty Volunteer;;,True
+LOINC,91702-1,Shelter name [Identifier] Facility;;,False
+LOINC,91703-9,Shelter address Facility;;,False
+LOINC,91704-7,Primary contact information panel Facility;;,True
+LOINC,91714-6,Date of interview;;,True
+LOINC,91879-7,Reporter Information;;,True
+LOINC,91880-5,Date and time of risk assessment meeting;;,True
+LOINC,91881-3,Location of meeting;;,False
+LOINC,91886-2,Document name [Identifier];;,False
+LOINC,91887-0,Agency type;;,False
+LOINC,91888-8,Qualification Volunteer;;,False
+LOINC,91889-6,Volunteer contact information panel;;,False
+LOINC,91891-2,Facility Bed type;;,False
+LOINC,91892-0,Address Volunteer;;,False
+LOINC,91893-8,Email address Volunteer;;,False
+LOINC,91894-6,Volunteer Phone number;;,False
+LOINC,91904-3,Personnel Response team member qualification;;,False
+LOINC,91905-0,Personnel Response team leader information panel;;,False
+LOINC,91906-8,Personnel Response team leader qualification;;,False
+LOINC,92009-0,Personnel Birth date;;,False
+LOINC,92010-8,Jurisdiction fetal death report Document;;,False
+LOINC,92013-2,Father's administrative information;;,True
+LOINC,92019-9,Provider supplied mother's fetal death report Document;;,True
+LOINC,92021-5,Provider supplied facility fetal death report Document;;,True
+LOINC,92026-4,Personnel Supervisor contact information panel;;,True
+LOINC,92028-0,Personnel Supervisor name;;,True
+LOINC,92029-8,Personnel Supervisor email address;;,True
+LOINC,92030-6,Personnel Supervisor address;;,True
+LOINC,92031-4,Personnel Supervisor title;;,True
+LOINC,92032-2,Supervisor phone number;;,True
+LOINC,92033-0,Purchase cost [#] Supply;;,
+LOINC,92035-5,Personnel Job experience;;,
+LOINC,92045-4,Name of Donor;;,
+LOINC,92046-2,Donor contact information panel;;,True
+LOINC,92047-0,Donated item by Donor;;,True
+LOINC,92048-8,Donated item [#] Donor;;,
+LOINC,92191-6,Staff [#] Agency;;,False
+LOINC,92193-2,Bed type [#] Facility;;,
+LOINC,92194-0,Bed category Facility;;,
+LOINC,92195-7,Bed category [#] Facility;;,
+LOINC,92196-5,Supply owner [Identifier] Supply;;,False
+LOINC,92197-3,Public health emergency budget [#] Reporting Period;;,True
+LOINC,92198-1,Public health emergency budget source;;,False
+LOINC,92199-9,Public health emergency budget breakdown details Reporting Period Document;;,
+LOINC,92200-5,Public health emergency budget implementing unit name [Identifier];;,
+LOINC,92201-3,Purchase activity Supply;;,
+LOINC,92202-1,Recipient of supply [Identifier] Supply;;,
+LOINC,92203-9,Bed category panel Facility;;,True
+LOINC,92204-7,Bed type panel Facility;;,True
+LOINC,92573-5,Resident of region that is endemic for the disease of interest;;,True
+LOINC,92634-5,Address type;;,False
+LOINC,93186-5,Preferred language and interpreter need;;,False
+LOINC,93449-7,Appointment of legal guardian;;,
+LOINC,94130-2,Body disposition facility name [Identifier];;,True
+LOINC,94131-0,Body disposition facility address;;,True
+LOINC,94132-8,Funeral facility name [Identifier];;,True
+LOINC,94133-6,Funeral facility address;;,True
+LOINC,94134-4,Personnel Funeral service licensee or other agent assuming custody of the body of the deceased;;,False
+LOINC,94135-1,Funeral service licensee identifier Facility;;,True
+LOINC,94545-1,Household contacts [#];;,True
+LOINC,94649-1,Health department identifier;;,True
+LOINC,94650-9,Contact identifier Contact;;,True
+LOINC,94655-8,Identifier and Assigning authority panel;;,True
+LOINC,94657-4,Contact case identifier;;,True
+LOINC,94659-0,Case identifier;;,True
+LOINC,94664-0,Anticipated discharge date;;,True
+LOINC,95364-6,Personnel Organization;;,False
+LOINC,95367-9,Intensive care unit (ICU) admission date;;,True
+LOINC,95368-7,Intensive care unit (ICU) discharge date;;,False
+LOINC,95369-5,Affiliated with a tribe;;,False
+LOINC,95370-3,Tribal affiliation;;,True
+LOINC,95371-1,Enrolled in a tribe;;,True
+LOINC,95372-9,Workplace setting;;,True
+LOINC,95727-4,Contact Name;;,True
+LOINC,95728-2,Contact Address;;,True
+LOINC,95729-0,Relationship to decedent Contact;;,False
+LOINC,95730-8,Surviving spouse name;;,True
+LOINC,95731-6,Mother's Maiden name;;,
+LOINC,96676-2,Employer phone number;;,
+LOINC,96677-0,School Address;;,
+LOINC,96678-8,School code [ID];;,
+LOINC,96679-6,School Identifier assigning authority;;,
+LOINC,LP116194-4,Health insurance card;;,
+LOINC,LP116197-7,Death certificate;;,
+LOINC,LP149090-5,Birth certificate;;,
+LOINC,LP149091-3,Certificate;;,
+LOINC,LP230533-4,State of travel;;,
+LOINC,LP267920-9,Proof of encounter certificate;;,
+LOINC,LP36348-8,Patient information;;,
+LOINC,LP416785-6,Certificate &#x7C; {Setting} &#x7C; Document ontology,
+LOINC,LP416786-4,Birth certificate &#x7C; {Setting} &#x7C; Document ontology,
+LOINC,LP416787-2,Death certificate | {Setting} | Document ontology;;,
+LOINC,LP416787-2,Death certificate &#x7C; {Setting} &#x7C; Document ontology,
+LOINC,LP416802-9,Driver license &#x7C; {Setting} &#x7C; Document ontology,
+LOINC,LP416803-7,Health insurance card &#x7C; {Setting} &#x7C; Document ontology,
+LOINC,LP418057-8,City of travel;;,
+LOINC,LP418079-2,State of known exposure;;,
+LOINC,LP418851-4,Intensive care unit (ICU) admission date;;,
+LOINC,LP418852-2,Intensive care unit (ICU) discharge date;;,
+LOINC,LP419181-5,City of travel &#x7C; Patient &#x7C; History,
+LOINC,LP419182-3,State of travel &#x7C; Patient &#x7C; History,
+LOINC,LP419189-8,State of known exposure &#x7C; Patient &#x7C; History,
+LOINC,LP419194-8,Intensive care unit (ICU) admission date &#x7C; Patient &#x7C; History,
+LOINC,LP419195-5,Intensive care unit (ICU) discharge date &#x7C; Patient &#x7C; History,
+LOINC,LP57353-2,Summary of death note;;,
+LOINC,LP74012-3,Driver license;;,
